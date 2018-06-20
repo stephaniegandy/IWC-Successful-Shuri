@@ -1,0 +1,17 @@
+.container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#food{
+    width: 75%;
+}
+#fitness{
+    width: 55%;
+}
+#play{
+    width: 75%;
+}
+#learn{
+    width: 85%;
+}

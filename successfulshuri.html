@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="test.js"></script>
+        <script src="https://use.fontawesome.com/831e94870a.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        
+    </head>
+    <body>
+         
+         <div class="container">
+             <div class="row">
+                 
+                 <div class="col-md-12">
+                     <div style="text-align: left;">
+                          <p>Knowledge: <span id="knowledgeScore">0</span></p>
+                          <p>Happiness: <span id="happinessScore">0</span></p>
+                          <p>Health: <span id="happinessScore">0</span></p>
+                
+                     </div>
+                     
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-6">
+                     <!-- character -->
+                     <img src="girl.jpeg">
+                     <!-- speech & option Pictures-->
+                     
+                 </div>
+                 <div class="col-md-6">
+                     <h2 id="speech">Hello</h2>
+                     <button id="start" onclick="hunger()">Start</button>
+                     <button id="playAgain" onclick="restartGame()">Play Again</button>
+                 </div>
+             </div>
+             <div class="row">
+                 <div id="careButtons">
+                     <div class="col-md-3"><input type="image" src="book.png" id="learn" onclick="setTimeout(learn, 1000)"></div>
+                     <div class="col-md-3"><input type="image" src="play.jpg" id="play" onclick="setTimeout(play, 1000)"></div>
+                     <div class="col-md-3"><input type="image" src="salad.jpg" id="food" onclick="setTimeout(food, 1000)"></div>
+                     <div class="col-md-3"><input type="image" src="exercise.jpg" id="fitness" onclick="setTimeout(fitness, 1000)"></div>
+                 </div>
+             </div>
+         </div>
+         
+    </body>
+</html>
